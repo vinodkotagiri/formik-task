@@ -1,0 +1,41 @@
+body {
+    background-color: #0f0f0f;
+    color: ghostwhite;
+}
+
+table {
+    margin: 0 auto;
+}
+
+thead,
+th {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid gray;
+}
+
+td {
+    font-size: 1.2rem;
+    border-bottom: 1px solid gray;
+}
+
+button {
+    padding: 6px;
+    margin: 4px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+button:first-of-type {
+    background-color: red;
+}
+
+button:nth-last-of-type(1) {
+    background-color: blue;
+}
+
+button:hover {
+    cursor: pointer;
+}
